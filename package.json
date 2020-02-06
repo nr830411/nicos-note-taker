@@ -1,26 +1,17 @@
 {
-  "name": "nicos-note-taker",
+  "name": "note-taker",
   "version": "1.0.0",
-  "description": "note taking application",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nr830411/nicos-note-taker.git"
-  },
-  "author": "Nico",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nr830411/nicos-note-taker/issues"
-  },
-  "homepage": "https://github.com/nr830411/nicos-note-taker#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "fs": "0.0.1-security",
-    "mysql": "^2.18.1",
-    "node": "^13.7.0"
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7",
+    "uuid": "^3.3.3"
   }
 }
